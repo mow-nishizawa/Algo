@@ -5,3 +5,4 @@ services:
         tty: true
         volumes:
             - ./src:/var/www/go/src
+        working_dir: /var/www/go/src

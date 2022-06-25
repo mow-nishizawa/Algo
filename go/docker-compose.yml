@@ -1,0 +1,7 @@
+version: "3"
+services: 
+    go:
+        build: ./docker/
+        tty: true
+        volumes:
+            - ./src:/var/www/go/src
